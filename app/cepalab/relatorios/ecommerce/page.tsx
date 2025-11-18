@@ -115,6 +115,10 @@ export default function EcommerceReport() {
 
   return (
     <div className="container mx-auto p-6 space-y-6 dark:bg-gray-900 dark:text-gray-100">
+      <div className="flex items-center gap-3">
+        <img src="/logocepalab.svg" alt="CEPALAB" className="h-7 w-auto" />
+        <span className="text-sm text-gray-500 dark:text-gray-400">E-commerce</span>
+      </div>
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -280,3 +284,4 @@ export default function EcommerceReport() {
     </div>
   );
 }
+export const dynamic = 'force-dynamic';

@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = 'force-dynamic';
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { signIn } from "next-auth/react";
@@ -27,7 +28,11 @@ export default function Login() {
     setError("");
     const res = await signIn("credentials", { code, redirect: false });
     setLoading(false);
-    if (res && !res.error) router.push("/cepalab/dashboard");
+    if (res && !res.error) {
+      const now = new Date().toISOString();
+      document.cookie = `otp_validated_at=${encodeURIComponent(now)}; max-age=86400; path=/`;
+      router.push("/cepalab/dashboard/enhanced");
+    }
     else setError("Código inválido");
   }
 

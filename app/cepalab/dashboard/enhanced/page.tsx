@@ -797,3 +797,4 @@ export default function EnhancedDashboard() {
     </motion.div>
   );
 }
+export const dynamic = 'force-dynamic';

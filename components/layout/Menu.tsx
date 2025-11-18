@@ -4,8 +4,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const items = [
-  { href: "/cepalab/dashboard", label: "Dashboard" },
-  { href: "/cepalab", label: "Explorar SGQ" },
+  { href: "/cepalab/dashboard/enhanced", label: "Dashboard" },
+  { href: "/cepalab/relatorios", label: "Relatórios" },
+  { href: "/cepalab/vendas", label: "Vendas" },
+  { href: "/cepalab/estoque", label: "Estoque" },
+  { href: "/cepalab/financeiro", label: "Financeiro" },
   { href: "/auth/login", label: "Autenticação" }
 ];
 

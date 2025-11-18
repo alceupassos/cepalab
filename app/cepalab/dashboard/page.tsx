@@ -193,3 +193,4 @@ export default function CepalabDashboard() {
     </div>
   );
 }
+export const dynamic = 'force-dynamic';

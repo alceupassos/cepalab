@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import { useDarkMode } from "@/hooks/useDarkMode";
 import { Moon, Sun } from "lucide-react";
@@ -8,6 +9,9 @@ export function Topbar() {
   return (
     <header className="flex items-center justify-between border-b border-muted/60 px-6 py-3">
       <div className="space-y-1">
+        <div className="flex items-center gap-2">
+          <img src="/logocepalab.svg" alt="CEPALAB" className="h-6 w-auto" />
+        </div>
         <p className="text-xs uppercase tracking-wide text-muted-foreground">
           Visão geral do ERP ULTRA
         </p>

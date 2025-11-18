@@ -65,3 +65,4 @@ export default function Cepalab() {
     </div>
   );
 }
+export const dynamic = 'force-dynamic';

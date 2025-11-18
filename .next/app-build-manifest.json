@@ -1,206 +1,30 @@
 {
   "pages": {
-    "/_not-found/page": [
-      "static/chunks/webpack-d757b501b8c835e1.js",
-      "static/chunks/fd9d1056-c473cd565c861177.js",
-      "static/chunks/117-ff3ac1179a5c1318.js",
-      "static/chunks/main-app-c43b7c4458c7cff8.js",
-      "static/chunks/app/_not-found/page-6a9619551a58de4f.js"
+    "/auth/login/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/auth/login/page.js"
     ],
     "/layout": [
-      "static/chunks/webpack-d757b501b8c835e1.js",
-      "static/chunks/fd9d1056-c473cd565c861177.js",
-      "static/chunks/117-ff3ac1179a5c1318.js",
-      "static/chunks/main-app-c43b7c4458c7cff8.js",
-      "static/css/851d1bda0a68fb56.css",
-      "static/chunks/app/layout-d0e9d10b70646953.js"
-    ],
-    "/auth/error/page": [
-      "static/chunks/webpack-d757b501b8c835e1.js",
-      "static/chunks/fd9d1056-c473cd565c861177.js",
-      "static/chunks/117-ff3ac1179a5c1318.js",
-      "static/chunks/main-app-c43b7c4458c7cff8.js",
-      "static/chunks/app/auth/error/page-f50907309fb70e85.js"
-    ],
-    "/auth/login/page": [
-      "static/chunks/webpack-d757b501b8c835e1.js",
-      "static/chunks/fd9d1056-c473cd565c861177.js",
-      "static/chunks/117-ff3ac1179a5c1318.js",
-      "static/chunks/main-app-c43b7c4458c7cff8.js",
-      "static/chunks/307-331ebe44b9c5abdb.js",
-      "static/chunks/app/auth/login/page-d8163ae9a8c39e42.js"
-    ],
-    "/page": [
-      "static/chunks/webpack-d757b501b8c835e1.js",
-      "static/chunks/fd9d1056-c473cd565c861177.js",
-      "static/chunks/117-ff3ac1179a5c1318.js",
-      "static/chunks/main-app-c43b7c4458c7cff8.js",
-      "static/chunks/app/page-6b7dd63af3dd45de.js"
-    ],
-    "/cepalab/estoque/page": [
-      "static/chunks/webpack-d757b501b8c835e1.js",
-      "static/chunks/fd9d1056-c473cd565c861177.js",
-      "static/chunks/117-ff3ac1179a5c1318.js",
-      "static/chunks/main-app-c43b7c4458c7cff8.js",
-      "static/chunks/467-b734e0f8fea4694c.js",
-      "static/chunks/213-07849404f284631e.js",
-      "static/chunks/379-c2ba2ad8336ed8c3.js",
-      "static/chunks/427-2bfd07975d2156c1.js",
-      "static/chunks/app/cepalab/estoque/page-b1aedab002ce8283.js"
-    ],
-    "/cepalab/layout": [
-      "static/chunks/webpack-d757b501b8c835e1.js",
-      "static/chunks/fd9d1056-c473cd565c861177.js",
-      "static/chunks/117-ff3ac1179a5c1318.js",
-      "static/chunks/main-app-c43b7c4458c7cff8.js",
-      "static/chunks/448-1434738ea3efbd8e.js",
-      "static/chunks/app/cepalab/layout-21a44165b028680f.js"
-    ],
-    "/cepalab/dashboard/enhanced/page": [
-      "static/chunks/webpack-d757b501b8c835e1.js",
-      "static/chunks/fd9d1056-c473cd565c861177.js",
-      "static/chunks/117-ff3ac1179a5c1318.js",
-      "static/chunks/main-app-c43b7c4458c7cff8.js",
-      "static/chunks/467-b734e0f8fea4694c.js",
-      "static/chunks/213-07849404f284631e.js",
-      "static/chunks/682-2b42f883e25b39c6.js",
-      "static/chunks/70-43acdbd9bc219b46.js",
-      "static/chunks/427-2bfd07975d2156c1.js",
-      "static/chunks/611-67e477673267b9c2.js",
-      "static/chunks/410-769e55ca683bdd8d.js",
-      "static/chunks/app/cepalab/dashboard/enhanced/page-696790e355f485b8.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/cepalab/dashboard/page": [
-      "static/chunks/webpack-d757b501b8c835e1.js",
-      "static/chunks/fd9d1056-c473cd565c861177.js",
-      "static/chunks/117-ff3ac1179a5c1318.js",
-      "static/chunks/main-app-c43b7c4458c7cff8.js",
-      "static/chunks/467-b734e0f8fea4694c.js",
-      "static/chunks/682-2b42f883e25b39c6.js",
-      "static/chunks/156-4a2146b922dc592b.js",
-      "static/chunks/611-67e477673267b9c2.js",
-      "static/chunks/app/cepalab/dashboard/page-dfe9d7fb34d986c1.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/cepalab/dashboard/page.js"
     ],
-    "/cepalab/financeiro/page": [
-      "static/chunks/webpack-d757b501b8c835e1.js",
-      "static/chunks/fd9d1056-c473cd565c861177.js",
-      "static/chunks/117-ff3ac1179a5c1318.js",
-      "static/chunks/main-app-c43b7c4458c7cff8.js",
-      "static/chunks/467-b734e0f8fea4694c.js",
-      "static/chunks/213-07849404f284631e.js",
-      "static/chunks/379-c2ba2ad8336ed8c3.js",
-      "static/chunks/app/cepalab/financeiro/page-45e71d888adc985d.js"
+    "/cepalab/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/cepalab/layout.js"
     ],
     "/cepalab/page": [
-      "static/chunks/webpack-d757b501b8c835e1.js",
-      "static/chunks/fd9d1056-c473cd565c861177.js",
-      "static/chunks/117-ff3ac1179a5c1318.js",
-      "static/chunks/main-app-c43b7c4458c7cff8.js",
-      "static/chunks/app/cepalab/page-843a9143992eeb20.js"
-    ],
-    "/cepalab/relatorios/comercial/page": [
-      "static/chunks/webpack-d757b501b8c835e1.js",
-      "static/chunks/fd9d1056-c473cd565c861177.js",
-      "static/chunks/117-ff3ac1179a5c1318.js",
-      "static/chunks/main-app-c43b7c4458c7cff8.js",
-      "static/chunks/467-b734e0f8fea4694c.js",
-      "static/chunks/213-07849404f284631e.js",
-      "static/chunks/682-2b42f883e25b39c6.js",
-      "static/chunks/70-43acdbd9bc219b46.js",
-      "static/chunks/156-4a2146b922dc592b.js",
-      "static/chunks/163-5c7dc973effbc48c.js",
-      "static/chunks/178-412c14d7a85a560b.js",
-      "static/chunks/app/cepalab/relatorios/comercial/page-51fd69b4ff8b866f.js"
-    ],
-    "/cepalab/relatorios/ecommerce/page": [
-      "static/chunks/webpack-d757b501b8c835e1.js",
-      "static/chunks/fd9d1056-c473cd565c861177.js",
-      "static/chunks/117-ff3ac1179a5c1318.js",
-      "static/chunks/main-app-c43b7c4458c7cff8.js",
-      "static/chunks/467-b734e0f8fea4694c.js",
-      "static/chunks/213-07849404f284631e.js",
-      "static/chunks/682-2b42f883e25b39c6.js",
-      "static/chunks/70-43acdbd9bc219b46.js",
-      "static/chunks/156-4a2146b922dc592b.js",
-      "static/chunks/163-5c7dc973effbc48c.js",
-      "static/chunks/178-412c14d7a85a560b.js",
-      "static/chunks/app/cepalab/relatorios/ecommerce/page-311c0429d7b4995e.js"
-    ],
-    "/cepalab/relatorios/comissoes/page": [
-      "static/chunks/webpack-d757b501b8c835e1.js",
-      "static/chunks/fd9d1056-c473cd565c861177.js",
-      "static/chunks/117-ff3ac1179a5c1318.js",
-      "static/chunks/main-app-c43b7c4458c7cff8.js",
-      "static/chunks/467-b734e0f8fea4694c.js",
-      "static/chunks/213-07849404f284631e.js",
-      "static/chunks/682-2b42f883e25b39c6.js",
-      "static/chunks/70-43acdbd9bc219b46.js",
-      "static/chunks/156-4a2146b922dc592b.js",
-      "static/chunks/163-5c7dc973effbc48c.js",
-      "static/chunks/178-412c14d7a85a560b.js",
-      "static/chunks/app/cepalab/relatorios/comissoes/page-446f260f0479ec54.js"
-    ],
-    "/cepalab/relatorios/estoque/page": [
-      "static/chunks/webpack-d757b501b8c835e1.js",
-      "static/chunks/fd9d1056-c473cd565c861177.js",
-      "static/chunks/117-ff3ac1179a5c1318.js",
-      "static/chunks/main-app-c43b7c4458c7cff8.js",
-      "static/chunks/467-b734e0f8fea4694c.js",
-      "static/chunks/213-07849404f284631e.js",
-      "static/chunks/682-2b42f883e25b39c6.js",
-      "static/chunks/70-43acdbd9bc219b46.js",
-      "static/chunks/156-4a2146b922dc592b.js",
-      "static/chunks/163-5c7dc973effbc48c.js",
-      "static/chunks/178-412c14d7a85a560b.js",
-      "static/chunks/app/cepalab/relatorios/estoque/page-7fcf4da5f9f00dbf.js"
-    ],
-    "/cepalab/relatorios/financeiro/page": [
-      "static/chunks/webpack-d757b501b8c835e1.js",
-      "static/chunks/fd9d1056-c473cd565c861177.js",
-      "static/chunks/117-ff3ac1179a5c1318.js",
-      "static/chunks/main-app-c43b7c4458c7cff8.js",
-      "static/chunks/467-b734e0f8fea4694c.js",
-      "static/chunks/213-07849404f284631e.js",
-      "static/chunks/682-2b42f883e25b39c6.js",
-      "static/chunks/70-43acdbd9bc219b46.js",
-      "static/chunks/156-4a2146b922dc592b.js",
-      "static/chunks/163-5c7dc973effbc48c.js",
-      "static/chunks/178-412c14d7a85a560b.js",
-      "static/chunks/app/cepalab/relatorios/financeiro/page-4069b7c935069a34.js"
-    ],
-    "/cepalab/relatorios/page": [
-      "static/chunks/webpack-d757b501b8c835e1.js",
-      "static/chunks/fd9d1056-c473cd565c861177.js",
-      "static/chunks/117-ff3ac1179a5c1318.js",
-      "static/chunks/main-app-c43b7c4458c7cff8.js",
-      "static/chunks/467-b734e0f8fea4694c.js",
-      "static/chunks/213-07849404f284631e.js",
-      "static/chunks/app/cepalab/relatorios/page-d612a81525eadd5e.js"
-    ],
-    "/cepalab/relatorios/vendas/page": [
-      "static/chunks/webpack-d757b501b8c835e1.js",
-      "static/chunks/fd9d1056-c473cd565c861177.js",
-      "static/chunks/117-ff3ac1179a5c1318.js",
-      "static/chunks/main-app-c43b7c4458c7cff8.js",
-      "static/chunks/467-b734e0f8fea4694c.js",
-      "static/chunks/213-07849404f284631e.js",
-      "static/chunks/682-2b42f883e25b39c6.js",
-      "static/chunks/70-43acdbd9bc219b46.js",
-      "static/chunks/156-4a2146b922dc592b.js",
-      "static/chunks/163-5c7dc973effbc48c.js",
-      "static/chunks/178-412c14d7a85a560b.js",
-      "static/chunks/app/cepalab/relatorios/vendas/page-a1b39eeeb8494fd2.js"
-    ],
-    "/cepalab/vendas/page": [
-      "static/chunks/webpack-d757b501b8c835e1.js",
-      "static/chunks/fd9d1056-c473cd565c861177.js",
-      "static/chunks/117-ff3ac1179a5c1318.js",
-      "static/chunks/main-app-c43b7c4458c7cff8.js",
-      "static/chunks/467-b734e0f8fea4694c.js",
-      "static/chunks/213-07849404f284631e.js",
-      "static/chunks/379-c2ba2ad8336ed8c3.js",
-      "static/chunks/410-769e55ca683bdd8d.js",
-      "static/chunks/app/cepalab/vendas/page-4c2bd5418d688612.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/cepalab/page.js"
     ]
   }
 }

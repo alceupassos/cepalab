@@ -1,19 +1,36 @@
-import { NextResponse } from "next/server";
-import type { NextRequest } from "next/server";
-import { getToken } from "next-auth/jwt";
+import { NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server';
 
-export async function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl;
-  const publicPaths = ["/auth/login", "/auth/error", "/api", "/_next", "/favicon.ico"];
-  if (publicPaths.some((p) => pathname.startsWith(p))) return NextResponse.next();
-  const token = await getToken({ req: request, secret: process.env.NEXTAUTH_SECRET });
-  if (!token) return NextResponse.redirect(new URL("/auth/login", request.url));
-  const ts = Number((token as any).otpVerifiedAt || 0);
-  const ok = Date.now() - ts < 24 * 60 * 60 * 1000;
-  if (!ok) return NextResponse.redirect(new URL("/auth/login", request.url));
+const PROTECTED_PREFIXES = ['/cepalab'];
+
+export function middleware(req: NextRequest) {
+  const { pathname } = req.nextUrl;
+  const isProtected = PROTECTED_PREFIXES.some((p) => pathname.startsWith(p));
+  if (!isProtected) return NextResponse.next();
+
+  const cookie = req.cookies.get('otp_validated_at');
+  if (!cookie) {
+    const url = new URL('/auth/login', req.url);
+    return NextResponse.redirect(url);
+  }
+
+  try {
+    const ts = new Date(decodeURIComponent(cookie.value)).getTime();
+    const now = Date.now();
+    const diffMs = now - ts;
+    const oneDayMs = 24 * 60 * 60 * 1000;
+    if (isNaN(ts) || diffMs > oneDayMs) {
+      const url = new URL('/auth/login', req.url);
+      return NextResponse.redirect(url);
+    }
+  } catch {
+    const url = new URL('/auth/login', req.url);
+    return NextResponse.redirect(url);
+  }
+
   return NextResponse.next();
 }
 
 export const config = {
-  matcher: ["/(.*)"]
+  matcher: ['/cepalab/:path*'],
 };

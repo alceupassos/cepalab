@@ -222,6 +222,10 @@ export default function RelatoriosPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
+      <div className="flex items-center gap-3 px-4 sm:px-6 lg:px-8 pt-6">
+        <img src="/logocepalab.svg" alt="CEPALAB" className="h-7 w-auto" />
+        <span className="text-sm text-gray-500 dark:text-gray-400">Relatórios e Análises</span>
+      </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Header */}
         <motion.div
@@ -462,3 +466,4 @@ export default function RelatoriosPage() {
     </div>
   );
 }
+export const dynamic = 'force-dynamic';
