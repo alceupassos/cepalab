@@ -187,11 +187,14 @@ export default function EnhancedDashboard() {
         variants={tabVariants}
         className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4"
       >
-        <div>
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-            Dashboard CEPALAB
-          </h1>
-          <p className="text-gray-600 mt-1">Visão geral integrada dos seus negócios</p>
+        <div className="flex items-center gap-3">
+          <img src="/logocepalab.svg" alt="CEPALAB" className="h-7 w-auto" />
+          <div>
+            <h1 className="text-4xl font-bold bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
+              Dashboard CEPALAB
+            </h1>
+            <p className="text-gray-600 mt-1">Visão geral integrada dos seus negócios</p>
+          </div>
         </div>
         
         <div className="flex items-center gap-3 flex-wrap">

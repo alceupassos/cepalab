@@ -67,6 +67,9 @@ export function Navigation({ onRefresh, onExport, showActions = true }: Navigati
   };
 
   const handleLogout = async () => {
+    try {
+      document.cookie = 'otp_validated_at=; Max-Age=0; path=/';
+    } catch {}
     await signOut({ redirect: true, callbackUrl: '/auth/login' });
   };
 
